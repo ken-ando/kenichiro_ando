@@ -21,9 +21,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: var(--fa-display, inline-block);
-  font: normal normal normal 14px/1 FontAwesome;
+  font: 14px 14px 14px 14px;
   font-size: inherit;
-  line-height: 1;
   text-rendering: auto; }
 
 .fas,
