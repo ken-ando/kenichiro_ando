@@ -19,7 +19,8 @@
 .fab,
 .fa-brands {
   display: inline-block;
-  font-size: 14px;
+  font: normal normal normal 14px;
+  font-size: 150%;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
