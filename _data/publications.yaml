@@ -2,19 +2,19 @@ papers:
 
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "PLOS Digital Health"
+    venue: 
     paper_pdf: 
     selected: y
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI)"
+    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)"
     paper_pdf: 
     selected: y
     
   - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "PLOS Digital Health"
+    venue: "PLOS Digital Health (2022)"
     paper_pdf: https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000099
     selected: y
  
