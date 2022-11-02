@@ -21,7 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: var(--fa-display, inline-block);
-  font-size: 150%;
+  font-size: 125%;
   font-style: normal;
   font-variant: normal;
   line-height: 1;
