@@ -26,7 +26,8 @@
   font-variant: normal;
   line-height: 1.25;
   text-rendering: auto; 
-  letter-spacing: 40px;
+  letter-spacing: 30px;
+  margin-top: 20px;
 }
 
 .fas,
