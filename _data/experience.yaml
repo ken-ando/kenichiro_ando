@@ -1,5 +1,5 @@
 experiences:
-- place: "Japan Advanced Institute of Science and Technology (北陸先端科学技術大学院大学)"
+- place: "JAIST (北陸先端科学技術大学院大学)"
   time: "2016 - 2018"
   title: "Master"
   subtitle: "Advised by Kiyoaki Shirai"
@@ -13,13 +13,13 @@ experiences:
 
 - place: "RIKEN AIP (理化学研究所 革新知能統合研究センター)"
   time: "2018.06 - 2020"
-  title: "Intern"
+  title: "Part-time Researcher"
   subtitle: "Knowledge Acquisition Team (Advised by Yuji Matsumoto)"
   category: "work"
 
 - place: "RIKEN AIP"
   time: "2020 - current"
-  title: "Intern"
+  title: "Part-time Researcher"
   subtitle: "Language Information Access Technology Team (Advised by Satoshi Sekine)"
   category: "work"
 
