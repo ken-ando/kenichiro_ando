@@ -1,31 +1,31 @@
 experiences:
 
+- place: "RIKEN AIP"
+  time: "2020.04 - current"
+  title: "Part-time Researcher"
+  subtitle: "Language Information Access Technology Team (Advised by Satoshi Sekine)"
+  category: "work"
+
 - place: "National Hospital Organization"
-  time: "2020 - current"
+  time: "2020.01 - current"
   title: "Visited Reseacher"
   subtitle: "Clinical Data Analysis"
   category: "work"
 
 - place: "RIKEN AIP"
-  time: "2020 - current"
-  title: "Part-time Researcher"
-  subtitle: "Language Information Access Technology Team (Advised by Satoshi Sekine)"
-  category: "work"
-
-- place: "RIKEN AIP"
-  time: "2018.06 - 2020"
+  time: "2018.06 - 2020.03"
   title: "Part-time Researcher"
   subtitle: "Knowledge Acquisition Team (Advised by Yuji Matsumoto)"
   category: "work"
 
 - place: "Tokyo Metropolitan University"
-  time: "2018 - current"
-  title: "Ph.D."
+  time: "2018.04 - current"
+  title: "Ph.D"
   subtitle: "Advised by Mamoru Komachi"
   category: "school"
 
 - place: "Japan Advanced Institute of Science and Technology"
-  time: "2016 - 2018"
+  time: "2016.04 - 2018.03"
   title: "Master"
   subtitle: "Advised by Kiyoaki Shirai"
   category: "school"
