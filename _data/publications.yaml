@@ -1,21 +1,24 @@
 papers:
-  - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
-    authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "PLOS Digital Health"
-    paper_pdf: https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000099
-    selected: y
-  
+
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "PLOS Digital Health"
     paper_pdf: 
     selected: y
-    
+
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI)"
     paper_pdf: 
     selected: y
+    
+  - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
+    authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
+    venue: "PLOS Digital Health"
+    paper_pdf: https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000099
+    selected: y
+ 
+   
 
   - title: "診療録解析のための文のセグメント分割と意味ラベル付与"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 堀口裕正, 松本 裕治"
