@@ -18,12 +18,13 @@
 .fa-regular,
 .fab,
 .fa-brands {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: var(--fa-display, inline-block);
-  font: 14px 14px 14px 14px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
-  text-rendering: auto; }
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .fas,
 .fa-classic,
