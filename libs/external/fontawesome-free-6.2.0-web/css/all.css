@@ -21,10 +21,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: var(--fa-display, inline-block);
-  font-size: 140%;
+  font-size: 125%;
   font-style: normal;
   font-variant: normal;
-  line-height: 1.4;
+  line-height: 1.25;
   text-rendering: auto; 
   letter-spacing: 5px;
   margin-top: 2px;
