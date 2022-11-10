@@ -2,7 +2,7 @@ papers:
 
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: 
+    venue: "PLOS Digital Health (2022)"
     paper_pdf: 
     selected: y
 
