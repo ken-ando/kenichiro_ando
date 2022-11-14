@@ -8,14 +8,14 @@ papers:
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022)"
+    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence"
     paper_pdf: 
     selected: y
     
   - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "PLOS Digital Health (2022)"
-    paper_pdf: https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000099
+    paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000099"
     selected: y
  
    
@@ -23,25 +23,25 @@ papers:
   - title: "診療録解析のための文のセグメント分割と意味ラベル付与"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 堀口裕正, 松本 裕治"
     venue: "情報処理学会第246回自然言語処理研究会"
-    paper_pdf: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=208166&item_no=1
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=208166&item_no=1"
     in_doc: y
   
   - title: "Wikipediaにおける読者属性を考慮した引用要否の分析"
     authors: "安道 健一郎 , 関根聡, 小町 守"
     venue: "情報処理学会第245回自然言語処理研究会"
-    paper_pdf: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=206953&item_no=1
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=206953&item_no=1"
     in_doc: y
   
   - title: "確信度に基づく退院時サマリの分析"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 松本 裕治"
     venue: "情報処理学会第240回自然言語処理研究会"
-    paper_pdf: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=197565&item_no=1
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=197565&item_no=1"
     in_doc: y
   
   - title: "企業ウェブページからの業種情報の抽出と分類"
     authors: "安道健一郎, 白井清昭"
     venue: "自然言語処理学会 第24回年次大会"
-    paper_pdf: https://www.anlp.jp/proceedings/annual_meeting/2018/pdf_dir/P10-7.pdf
+    paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2018/pdf_dir/P10-7.pdf"
     in_doc: y
 
 
