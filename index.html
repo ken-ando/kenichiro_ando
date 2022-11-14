@@ -43,13 +43,13 @@ title: Home
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">PDF</a>
             {% endif %}
             {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
             {% endif %}
             {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
             {% endif %}
             {% if paper.video %}
               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
