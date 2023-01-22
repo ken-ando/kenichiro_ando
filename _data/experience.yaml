@@ -21,7 +21,7 @@ experiences:
 - place: "Tokyo Metropolitan University"
   time: "2018.04 - current"
   title: "Ph.D."
-  subtitle: "Advised by Mamoru Komachi (Computer linguistic lab)<br/>Thesis: Automatic Discharge Summary Generation using Neural <br/>&nbsp;&emsp;&emsp;&emsp;Network Models"
+  subtitle: "Advised by Mamoru Komachi (Computer linguistic lab)<br/>Thesis: Automatic Discharge Summary Generation using Neural <br/>&ensp;&ensp;&emsp;&emsp;Network Models"
   category: "school"
 
 - place: "JAIST"
@@ -33,5 +33,5 @@ experiences:
 - place: "Toyo University"
   time: "2012.04 - 2016.03"
   title: "Bachelor"
-  subtitle: "Advised by Kazunori Kato (Molecular Cell Biomedical lab)<br/>Senior thesis: Characterization of Colorectal Cancer Cells Resistant <br/>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;to Anticancer Drug 5-fluorouracil."
+  subtitle: "Advised by Kazunori Kato (Molecular Cell Biomedical lab)<br/>Senior thesis: Characterization of Colorectal Cancer Cells Resistant <br/>&ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;to Anticancer Drug 5-fluorouracil."
   category: "school"
