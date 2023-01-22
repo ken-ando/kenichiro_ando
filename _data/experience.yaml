@@ -21,7 +21,7 @@ experiences:
 - place: "Tokyo Metropolitan University"
   time: "2018.04 - current"
   title: "Ph.D."
-  subtitle: "Advised by Mamoru Komachi (Computer linguistic lab)<br/>Thesis: Automatic Discharge Summary Generation using Neural Neteork Models"
+  subtitle: "Advised by Mamoru Komachi (Computer linguistic lab)<br/>Thesis: Automatic Discharge Summary Generation using Neural <br/>&emsp;&emsp;&emsp;&emsp;Network Models"
   category: "school"
 
 - place: "JAIST"
