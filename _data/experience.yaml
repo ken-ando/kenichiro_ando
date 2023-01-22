@@ -21,7 +21,7 @@ experiences:
 - place: "Tokyo Metropolitan University"
   time: "2018.04 - current"
   title: "Ph.D."
-  subtitle: "Advised by Mamoru Komachi"
+  subtitle: "Advised by Mamoru Komachi<br/>Automatic Discharge Summary Generation using Neural Neteork Models"
   category: "school"
 
 - place: "JAIST"
