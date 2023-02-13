@@ -9,13 +9,15 @@ papers:
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022) <font color=”#0000FA”><b>Best Paper Award</b></font>"
-    paper_pdf: 
+    paper_pdf:
+    paper_slide: "https://speakerdeck.com/ando55/is-in-hospital-meta-information-useful-for-abstractive-discharge-summary-generation"
     selected: y
     
   - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "PLOS Digital Health (2022)"
     paper_pdf: "https://arxiv.org/abs/2209.10041"
+    paper_demo: "https://huggingface.co/spaces/ando55/clinical_segnemt"
     selected: y
  
    
