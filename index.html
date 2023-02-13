@@ -57,6 +57,9 @@ title: Home
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
             {% endif %}
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo }}" target="_blank">Demo</a>
+            {% endif %}
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
