@@ -1,5 +1,11 @@
 experiences:
 
+- place: "The University of Tokyo"
+  time: "2023.06 - current"
+  title: "Visiting Researcher"
+  subtitle: "Machine Intelligence Lab"
+  category: "work"
+
 - place: "RIKEN AIP"
   time: "2023.05 - current"
   title: "Postdoctoral Researcher"
