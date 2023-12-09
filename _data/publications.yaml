@@ -1,5 +1,10 @@
 papers:
 
+  - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
+    authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
+    venue: "AAAI 2024 (Accepted)"
+    selected: y
+    
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
     venue: "PLOS Digital Health (2022)"
