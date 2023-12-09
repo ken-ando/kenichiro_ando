@@ -2,7 +2,7 @@ papers:
 
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "AAAI 2024 (Accepted)"
+    venue: "The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024) Accepted"
     selected: y
     
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
@@ -27,6 +27,12 @@ papers:
  
    
 
+  - title: "Wikipediaにおける文の品質推定のための大規模データセット"
+    authors: "安道健一郎 , 関根聡 , 小町守"
+    venue: "言語処理学会第29回年次大会"
+    paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q4-8.pdf"
+    in_doc: y
+    
   - title: "診療録解析のための文のセグメント分割と意味ラベル付与"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 堀口裕正, 松本 裕治"
     venue: "情報処理学会第246回自然言語処理研究会"
