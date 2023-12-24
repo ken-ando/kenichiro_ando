@@ -13,7 +13,7 @@ papers:
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022) <font color=”#0000FA”><b>Best Paper Award</b></font>"
+    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022) <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
     paper_pdf: "https://arxiv.org/abs/2303.06002"
     slides: "https://speakerdeck.com/ando55/is-in-hospital-meta-information-useful-for-abstractive-discharge-summary-generation"
     selected: y
