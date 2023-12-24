@@ -2,7 +2,7 @@ papers:
 
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024) Accepted"
+    venue: "The 38th Annual AAAI Conference on Artificial Intelligence (Main track) Accepted"
     selected: y
     
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
