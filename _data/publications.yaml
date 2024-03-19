@@ -2,7 +2,7 @@ papers:
 
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "The 38th Annual AAAI Conference on Artificial Intelligence, Main track (<b>AAAI 24</b>) Accepted"
+    venue: "The 38th Annual AAAI Conference on Artificial Intelligence, Main track (<b>AAAI</b> 24) Accepted"
     paper_pdf: "https://arxiv.org/abs/2305.05928"
     selected: y
     
