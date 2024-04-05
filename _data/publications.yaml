@@ -2,8 +2,9 @@ papers:
 
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "The 38th Annual AAAI Conference on Artificial Intelligence, Main track (<b>AAAI</b> 24) Accepted"
+    venue: "[AAAI 24] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"
     paper_pdf: "https://arxiv.org/abs/2305.05928"
+    code: "https://github.com/ken-ando/WikiSQE"
     selected: y
     
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
@@ -14,7 +15,7 @@ papers:
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "The 27th International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2022) <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
+    venue: "[TAAI 2022] The 27th International Conference on Technologies and Applications of Artificial Intelligence <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
     paper_pdf: "https://arxiv.org/abs/2303.06002"
     slides: "https://speakerdeck.com/ando55/is-in-hospital-meta-information-useful-for-abstractive-discharge-summary-generation"
     selected: y
