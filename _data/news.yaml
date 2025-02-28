@@ -1,12 +1,16 @@
 - date: "2025.03"
-  title: "言語処理学会第年次大会にて共著で次の発表を行います。"
-  detail: "Asagi: 合成データセットを活用した大規模日本語VLM"
+  title: "A co-author paper is presented at 言語処理学会第年次大会."
+  detail: 
+    - "Asagi: 合成データセットを活用した大規模日本語VLM"
 - date: "2025.03"
-  title: "情報処理学会NL研にて主著で次の発表を行います。"
-  detail: "大規模言語モデルによる日本語医療NLPの発展分析"
+  title: "A first-author paper is presented at 情報処理学会NL研."
+  detail: 
+    - "大規模言語モデルによる日本語医療NLPの発展分析"
 - date: "2024.04"
   title: "I obtained new research funding."
-  detail: "Grants-in-Aid for Scientific Research, Grant-in-Aid for Young Scientists（科研費若手）.2024-2028"
+  detail: 
+    - "Grants-in-Aid for Scientific Research, Grant-in-Aid for Young Scientists（科研費若手）."
 - date: "2024.02"
-  title: "A paper is presented at AAAI 2024."
-  detail: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
+  title: "A first-author paper is presented at AAAI 2024."
+  detail: 
+    - "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"

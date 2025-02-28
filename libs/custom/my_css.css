@@ -238,6 +238,9 @@ h4 {
 .news-content {
   font-size: 1.2em;         /* 少し大きめにして読みやすく */
   color: #333;
+  display: inline-block;
+  width: calc(100% - 7ch - 1em); /* 100% から日付ぶんを差し引く */
+  vertical-align: top;
   /* display: block;  ← ブロック表示にしたいなら有効化 */
 }
 .news-content ul {
