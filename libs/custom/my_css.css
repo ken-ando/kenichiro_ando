@@ -193,8 +193,68 @@ h4 {
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+/* 全体を囲むセクション */
+.news-section {
+  margin: 2em 0;             /* 上下に余白をつける */
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc; /* 下線を引いてセクションを区切る例 */
+}
+
+/* 見出し（NEWS）のデザイン */
+.news-heading {
+  font-size: 2rem;          /* 文字を大きめに */
+  font-weight: 700;         /* 太字 */
+  letter-spacing: 0.05em;   /* 字間をわずかに広げる */
+  margin-bottom: 0.5em;     /* 見出しとリストの間に隙間 */
+  font-family: "Helvetica", "Arial", sans-serif; /* お好みでフォント指定 */
+}
+
+/* メインのリスト */
+.news-list {
+  list-style: none;         /* デフォルトの箇条書きを消す */
+  padding-left: 0;          /* 左のインデントをなくす */
+  margin: 0;
+}
+
+.news-item {
+  margin-bottom: 1.5em;     /* 一つひとつのNEWSの間隔を空ける */
+  line-height: 1.6;         /* 行間を少し広めに */
+  position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
+}
+
+/* ─ もし左にオリジナルの丸ポチを付けたい場合 ─
+.news-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 50%;
+}
+*/
+
+/* 日付 */
 .news-date {
-  color: #000000;
-  margin-right: 1em;
-  font-size: 0.9em;
+  font-weight: 600;         /* やや太字 */
+  color: #555;              /* 文字色はグレーめに */
+  margin-right: 0.8em;      /* 日付と本文の距離 */
+  font-size: 1em;           /* 文字サイズは好みで調整 */
+}
+
+/* タイトル・本文 */
+.news-content {
+  font-size: 1.1em;         /* 少し大きめにして読みやすく */
+  color: #333;
+  /* display: block;  ← ブロック表示にしたいなら有効化 */
+}
+.news-content ul {
+  list-style: disc inside;   /* サブリストは"・"を表示 */
+  margin: 0.5em 0 0.5em 1.5em; 
+}
+
+.news-content li {
+  margin-bottom: 0.5em;
 }
