@@ -208,7 +208,7 @@ h4 {
 }
 
 .news-item {
-  margin-bottom: 0;     /* 一つひとつのNEWSの間隔を空ける */
+  margin-bottom: 0;    
   line-height: 1.0;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
@@ -231,7 +231,7 @@ h4 {
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
   margin-right: 0.8em;      /* 日付と本文の距離 */
-  font-size: 1em;         /* 文字サイズは好みで調整 */
+  font-size: 1.1em;         /* 文字サイズは好みで調整 */
 }
 
 /* タイトル・本文 */
