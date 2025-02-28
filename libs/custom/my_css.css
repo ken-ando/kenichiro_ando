@@ -208,7 +208,7 @@ h4 {
 }
 
 .news-item {
-  margin-bottom: 1rem;     /* 一つひとつのNEWSの間隔を空ける */
+  margin-bottom: 0.5em;     /* 一つひとつのNEWSの間隔を空ける */
   line-height: 1.0;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
