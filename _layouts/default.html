@@ -89,18 +89,18 @@
       </div>
     </section>
 
-    <!-- ========== NEWS ========== -->
-    <div class="news-section" id="news">
+    <div class="news-section">
       <h2 class="news-heading">NEWS</h2>
-      <ul class="news-list">
-        {% for item in site.data.news %}
-          <li class="news-item">
-            <span class="news-date">{{ item.date }}</span>
-            <span class="news-content">{{ item.title }}</span>
-          </li>
-        {% endfor %}
-      </ul>
+      {% for item in site.data.news %}
+        <div class="news-entry">
+          <span class="news-date">{{ item.date }}</span>
+          <div class="news-text">
+            {{ item.title }}
+          </div>
+        </div>
+      {% endfor %}
     </div>
+    
 
 
     <div class="navbar-spacer"></div>
