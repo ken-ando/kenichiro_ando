@@ -16,6 +16,18 @@ title: Home
 
 </div>
 
+<!-- ========== NEWS ========== -->
+<section id="news">
+  <h4>NEWS</h4>
+  <ul>
+    {% for item in site.data.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
