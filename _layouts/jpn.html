@@ -91,13 +91,13 @@
 
 
     <!-- ========== NEWS ========== -->
-    <div class="docs-section" id="news">
+    <div class="news-section" id="news">
       <h4>NEWS</h4>
-      <ul>
+      <ul class="news-list">
         {% for item in site.data.news %}
-          <li>
+          <li class="news-item">
             <span class="news-date">{{ item.date }}</span>
-            {{ item.title }}
+            <span class="news-content">{{ item.title }}{% if item.detail %}<i>{{ item.detail }}</i>{% endif %}</span>
           </li>
         {% endfor %}
       </ul>
