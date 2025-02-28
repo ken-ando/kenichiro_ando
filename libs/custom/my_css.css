@@ -194,23 +194,57 @@ h4 {
     border-bottom-color: #33C3F0; }
 }
 
-.news-entry {
-  display: flex;
-  align-items: flex-start;   /* 上端揃え */
-  margin-bottom: 1em;
+/* 全体を囲むセクション */
+.news-section {
+  margin: 2em 0;             /* 上下に余白をつける */
+  padding: 1em 0;
 }
 
-.news-date {
-  min-width: 6em;       /* 左カラム幅を固定 */
-  text-align: right;    /* 右寄せ */
-  margin-right: 1em;
-  color: #666;
-  font-weight: 600;
+/* メインのリスト */
+.news-list {
+  list-style: none;         /* デフォルトの箇条書きを消す */
+  padding-left: 0;          /* 左のインデントをなくす */
+  margin: 0;
 }
 
-.news-text {
-  flex: 1;              /* 残りスペースに伸ばす */
+.news-item {
+  margin-bottom: 1rem;     /* 一つひとつのNEWSの間隔を空ける */
+  line-height: 1.0;         /* 行間を少し広めに */
+  position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
+}
+
+/* ─ もし左にオリジナルの丸ポチを付けたい場合 ─
+.news-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 50%;
+}
+*/
+
+/* 日付 */
+.news-date {       /* やや太字 */
+  display: inline-block;
+  color: #555;              /* 文字色はグレーめに */
+  margin-right: 0.8em;      /* 日付と本文の距離 */
+  font-size: 1em;           /* 文字サイズは好みで調整 */
+}
+
+/* タイトル・本文 */
+.news-content {
+  font-size: 0.8em;         /* 少し大きめにして読みやすく */
   color: #333;
-  font-size: 1em;
-  line-height: 1.4;
+  /* display: block;  ← ブロック表示にしたいなら有効化 */
+}
+.news-content ul {
+  list-style: disc inside;   /* サブリストは"・"を表示 */
+  margin: 0.5em 0 0.5em 1.5em; 
+}
+
+.news-content li {
+  margin-bottom: 0.5em;
 }
