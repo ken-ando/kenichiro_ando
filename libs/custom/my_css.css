@@ -198,7 +198,6 @@ h4 {
 .news-section {
   margin: 2em 0;             /* 上下に余白をつける */
   padding: 1em 0;
-  border-bottom: 1px solid #ccc; /* 下線を引いてセクションを区切る例 */
 }
 
 /* メインのリスト */
@@ -209,8 +208,8 @@ h4 {
 }
 
 .news-item {
-  margin-bottom: 1.5em;     /* 一つひとつのNEWSの間隔を空ける */
-  line-height: 1.6;         /* 行間を少し広めに */
+  margin-bottom: 1em;     /* 一つひとつのNEWSの間隔を空ける */
+  line-height: 1.0;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
 
