@@ -240,5 +240,6 @@ h4 {
   color: #333;
   display: inline-block;
   vertical-align: top;
+  line-height: 1.1
   /* display: block;  ← ブロック表示にしたいなら有効化 */
 }
