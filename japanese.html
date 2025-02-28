@@ -2,6 +2,20 @@
 layout: jpn
 title: Jpn
 ---
+
+<!-- ========== NEWS ========== -->
+<section id="news">
+  <h4>NEWS</h4>
+  <ul>
+    {% for item in site.data.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        {{ item.title }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
@@ -14,19 +28,7 @@ title: Jpn
 
 
 
-  <!-- ========== NEWS ========== -->
-<section id="news">
-  <h4>NEWS</h4>
-  <ul>
-    {% for item in site.data.news %}
-      <li>
-        <span class="news-date">{{ item.date }}</span>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
+  
 
 
 <!-- ========== PUBLICATIONS ========== -->
