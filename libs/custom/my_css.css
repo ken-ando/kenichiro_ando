@@ -239,7 +239,6 @@ h4 {
   font-size: 1em;         /* 少し大きめにして読みやすく */
   color: #333;
   display: inline-block;
-  width: calc(100% - 10ch - 1em); /* 100% から日付ぶんを差し引く */
   vertical-align: top;
   /* display: block;  ← ブロック表示にしたいなら有効化 */
 }
