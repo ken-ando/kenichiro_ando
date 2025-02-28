@@ -236,7 +236,7 @@ h4 {
 
 /* タイトル・本文 */
 .news-content {
-  font-size: 1em;         /* 少し大きめにして読みやすく */
+  font-size: 1.1em;         /* 少し大きめにして読みやすく */
   color: #333;
   display: inline-block;
   vertical-align: top;
