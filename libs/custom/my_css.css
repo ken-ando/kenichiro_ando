@@ -211,6 +211,6 @@ h4 {
 .news-text {
   flex: 1;              /* 残りスペースに伸ばす */
   color: #333;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.4;
 }
