@@ -7,7 +7,10 @@
   detail: 
     - "- 大規模言語モデルによる日本語医療NLPの発展分析"
 - date: "2025.02"
-  title: "Our research was reported in the press."
+  title: "Our research was reported in newspapers."
+  detail: 
+    - "- <a href='https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/' target='_blank'>東大、オープンな日本語マルチモーダルモデルを開発</a>（日本経済新聞）"
+    - "- <a href='https://www.nikkan.co.jp/articles/view/00741134' target='_blank'>東大、日本語視覚言語モデル開発　オープンに利用可能</a>（日刊工業新聞）"
 - date: "2024.04"
   title: "A new research funding is obtained."
   detail: 
