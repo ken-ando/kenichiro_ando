@@ -90,19 +90,17 @@
     </section>
 
     <!-- ========== NEWS ========== -->
-    <div class="news-section" id="news">
-      <h4>NEWS</h4>
-      <ul class="news-list">
-        {% for item in site.data.news %}
-          <li class="news-item">
-            <span class="news-date">{{ item.date }}</span>
-            <span class="news-content">{{ item.title }}</span>
-            {% if item.paper %}
-              <br/><span class="news-content">{{ item.paper }}</span>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="news-section">
+      <h2>NEWS</h2>
+      {% for item in site.data.news %}
+        <div class="news-entry">
+          <div class="news-date">{{ item.date }}</div>
+          <div class="news-text">{{ item.title }}</div>
+          {% if item.paper %}
+            <div class="news-paper">{{ item.paper }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
 
 
