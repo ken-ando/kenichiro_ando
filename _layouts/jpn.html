@@ -89,6 +89,20 @@
       </div>
     </section>
 
+
+    <!-- ========== NEWS ========== -->
+    <div class="docs-section" id="news">
+      <h4>NEWS</h4>
+      <ul>
+        {% for item in site.data.news %}
+          <li>
+            <span class="news-date">{{ item.date }}</span>
+            {{ item.title }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
     <div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
