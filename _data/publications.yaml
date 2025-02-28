@@ -2,31 +2,34 @@ papers:
 
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "[AAAI 24] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"
+    venue: "[<b>AAAI 24</b>] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"
     paper_pdf: "https://arxiv.org/abs/2305.05928"
     code: "https://github.com/ken-ando/WikiSQE"
     selected: y
+    en: y
     
   - title: "Is Artificial Intelligence Capable of Generating Hospital Discharge Summaries from Inpatient Records?"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "PLOS Digital Health (2022)"
+    venue: "<b>PLOS Digital Health</b> (2022)"
     paper_pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000158"
     selected: y
+    en: y
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "[TAAI 2022] The 27th International Conference on Technologies and Applications of Artificial Intelligence <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
+    venue: "[<b>TAAI 2022</b>] The 27th International Conference on Technologies and Applications of Artificial Intelligence <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
     paper_pdf: "https://arxiv.org/abs/2303.06002"
     slides: "https://speakerdeck.com/ando55/is-in-hospital-meta-information-useful-for-abstractive-discharge-summary-generation"
     selected: y
+    en: y
     
   - title: "Exploring the Optimal Granularity for Extractive Summarization of Unstructured Health Records: Analysis of the Largest Multi-Institutional Archive of Health Records in Japan"
     authors: "Kenichiro Ando, Takashi Okumura, Mamoru Komachi, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "PLOS Digital Health (2022)"
+    venue: "<b>PLOS Digital Health</b> (2022)"
     paper_pdf: "https://arxiv.org/abs/2209.10041"
     demo: "https://huggingface.co/spaces/ando55/clinical_segnemt"
     selected: y
- 
+    en: y
    
 
   - title: "Wikipediaにおける文の品質推定のための大規模データセット"

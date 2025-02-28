@@ -100,7 +100,7 @@
               {% if item.detail %}
                 <ul>
                   {% for detail_item in item.detail %}
-                    <li><i style="font-size: 0.85em; width: calc(100% - 14ch - 1em);">{{ detail_item }}</i></li>
+                    <li><i style="font-size: 0.85em; width: calc(100% - 10ch - 1em);">{{ detail_item }}</i></li>
                   {% endfor %}
                 </ul>
               {% endif %}
@@ -113,8 +113,8 @@
 
     <div class="navbar-spacer"></div>
     <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
+      <div class="container" style="text-align: center;">
+        <ul class="navbar-list" style="display: inline-block; float: none;">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#grants" | prepend: site.baseurl }}>Grants</a></li>
@@ -126,6 +126,7 @@
         </ul>
       </div>
     </nav>
+
 
     {{ content}}
 
