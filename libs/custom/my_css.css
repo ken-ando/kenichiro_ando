@@ -231,23 +231,15 @@ h4 {
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
   margin-right: 0.8em;      /* 日付と本文の距離 */
-  font-size: 1.2em;         /* 文字サイズは好みで調整 */
+  font-size: 1em;         /* 文字サイズは好みで調整 */
 }
 
 /* タイトル・本文 */
 .news-content {
-  font-size: 1.2em;         /* 少し大きめにして読みやすく */
+  font-size: 1em;         /* 少し大きめにして読みやすく */
   color: #333;
   display: inline-block;
-  width: calc(100% - 7ch - 1em); /* 100% から日付ぶんを差し引く */
+  width: calc(100% - 14ch - 1em); /* 100% から日付ぶんを差し引く */
   vertical-align: top;
   /* display: block;  ← ブロック表示にしたいなら有効化 */
-}
-.news-content ul {
-  list-style: disc inside;   /* サブリストは"・"を表示 */
-  margin: 0.5em 0 0.5em 1.5em; 
-}
-
-.news-content li {
-  margin-bottom: 0.5em;
 }
