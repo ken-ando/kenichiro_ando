@@ -232,12 +232,12 @@ h4 {
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
   margin-right: 0.8em;      /* 日付と本文の距離 */
-  font-size: 1.05em;         /* 文字サイズは好みで調整 */
+  font-size: 1.0em;         /* 文字サイズは好みで調整 */
 }
 
 /* タイトル・本文 */
 .news-content {
-  font-size: 1.05em;         /* 少し大きめにして読みやすく */
+  font-size: 1.0em;         /* 少し大きめにして読みやすく */
   color: #333;
   display: inline-block;
   vertical-align: top;

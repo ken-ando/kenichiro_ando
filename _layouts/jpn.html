@@ -97,7 +97,15 @@
         {% for item in site.data.news %}
           <li class="news-item">
             <span class="news-date">{{ item.date }}</span>
-            <span class="news-content">{{ item.title }}{% if item.detail %}<i>{{ item.detail }}</i>{% endif %}</span>
+            <span class="news-content">{{ item.title }} 
+              {% if item.detail %}
+                <ul style="list-style-type: none; margin: 0.25em 0; padding: 0; line-height: 1.2;">
+                  {% for detail_item in item.detail %}
+                    <li><i style="font-size: 0.9em;">{{ detail_item }}</i></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </span>
           </li>
         {% endfor %}
       </ul>
