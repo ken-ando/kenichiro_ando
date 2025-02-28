@@ -194,25 +194,23 @@ h4 {
     border-bottom-color: #33C3F0; }
 }
 
-.news-section {
-  margin: 1.5em 0;
-}
-
-/* ----- ここがポイント ----- */
 .news-entry {
-  display: grid;
-  grid-template-columns: 6em 1fr; /* 左6em幅の日付、右は残りスペース */
-  column-gap: 1em;               /* 2列の間の余白 */
-  margin-bottom: 1em;            /* NEWS同士の間隔 */
+  display: flex;
+  align-items: flex-start;   /* 上端揃え */
+  margin-bottom: 1em;
 }
 
 .news-date {
-  justify-self: end;       /* 日付を右寄せ */
+  min-width: 6em;       /* 左カラム幅を固定 */
+  text-align: right;    /* 右寄せ */
+  margin-right: 1em;
   color: #666;
   font-weight: 600;
 }
 
 .news-text {
+  flex: 1;              /* 残りスペースに伸ばす */
   color: #333;
-  font-size: 1em;
+  font-size: 1rem;
+  line-height: 1.4;
 }
