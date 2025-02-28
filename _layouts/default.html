@@ -91,13 +91,13 @@
 
     <!-- ========== NEWS ========== -->
     <div class="news-section">
-      <h2>NEWS</h2>
+      <h4>NEWS</h4>
       {% for item in site.data.news %}
         <div class="news-entry">
           <div class="news-date">{{ item.date }}</div>
           <div class="news-text">{{ item.title }}</div>
           {% if item.paper %}
-            <div class="news-paper">{{ item.paper }}</div>
+            <div class="news-text">{{ item.paper }}</div>
           {% endif %}
         </div>
       {% endfor %}

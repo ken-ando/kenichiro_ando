@@ -198,12 +198,6 @@ h4 {
   margin: 1.5em 0;
 }
 
-.news-heading {
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin-bottom: 0.5em;
-}
-
 /* ----- ここがポイント ----- */
 .news-entry {
   display: grid;
@@ -219,7 +213,6 @@ h4 {
 }
 
 .news-text {
-  line-height: 1.4;
   color: #333;
-  font-size: 1rem;
+  font-size: 1em;
 }
