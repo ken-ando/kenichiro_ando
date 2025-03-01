@@ -28,10 +28,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
 
-  <!-- Font-Awesome
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/fontawesome-free-6.2.0-web/css/all.css" | prepend: site.baseurl }}>
-
   <!-- Skeleton tabs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
@@ -47,6 +43,10 @@
   <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
 
 
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/fontawesome-free-6.2.0-web/css/all.css" | prepend: site.baseurl }}>
+
   <!-- Favicon
        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- 
@@ -54,6 +54,7 @@
   <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
   -->
   <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
+
 
 </head>
 <body>
@@ -101,9 +102,9 @@
             <span class="news-date">{{ item.date }}</span>
             <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.title }} 
               {% if item.detail %}
-                <ul style="list-style-type: none; margin: 0.25em 0; padding: 0; line-height: 1.2;">
+                <ul style="list-style-type: none; margin: 0.25em 0; padding: 0; line-height: 1.0;">
                   {% for detail_item in item.detail %}
-                    <li><i style="font-size: 0.9em; margin: 0; padding: 0; ">{{ detail_item }}</i></li>
+                    <li><i>{{ detail_item }}</i></li>
                   {% endfor %}
                 </ul>
               {% endif %}
