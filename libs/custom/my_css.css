@@ -244,7 +244,7 @@ h4 {
 }
 /* 全体に同じフォントを適用 */
 html, body {
-  font-family: "Raleway", "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
