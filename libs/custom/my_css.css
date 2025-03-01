@@ -248,13 +248,13 @@ html, body {
 }
 .detail-list {
   list-style-type: none;
-  margin: 0.25em;
+  margin: 0.1em;
   padding: 0;
   line-height: 1.2;   /* 行間 */
 }
 .detail-list li {
   padding: 0;
-  margin-bottom: 0.1em;
+  margin: 0;
 }
 .detail-text {
   font-size: 0.9em;
