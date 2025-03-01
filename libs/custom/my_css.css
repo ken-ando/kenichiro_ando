@@ -209,7 +209,7 @@ h4 {
 }
 
 .news-item {
-  margin: 3px;    
+  margin: 1.5px;    
   line-height: 1.2;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
@@ -229,7 +229,6 @@ h4 {
 
 /* 日付 */
 .news-date {       /* やや太字 */
-  margin-top: 0;
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
   margin-right: 12.5px;      /* 日付と本文の距離 */
@@ -237,7 +236,6 @@ h4 {
 
 /* タイトル・本文 */
 .news-content {
-  margin-top: 0;
   color: #333;
   display: inline-block;
   vertical-align: top;
