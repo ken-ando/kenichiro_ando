@@ -204,7 +204,7 @@ h4 {
 .news-list {
   list-style: none;         /* デフォルトの箇条書きを消す */
   padding: 0;          /* 左のインデントをなくす */
-  margin: 0.25em 0;
+  margin: 1em;
   line-height: 1.2;
 }
 
