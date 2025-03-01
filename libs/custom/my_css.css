@@ -246,3 +246,17 @@ h4 {
 html, body {
   font-family: "Noto Sans", "Noto Sans JP", sans-serif;
 }
+.detail-list {
+  list-style-type: none;
+  margin: 0.25em 0;
+  padding: 0;
+  line-height: 1.2;   /* 行間 */
+}
+.detail-list li {
+  margin: 0; 
+  padding: 0;
+  /* margin-bottom: 0.2em;  // 項目同士を少しだけ空けたいなら */
+}
+.detail-text {
+  font-size: 0.9em;
+}

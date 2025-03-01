@@ -102,9 +102,9 @@
             <span class="news-date">{{ item.date }}</span>
             <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.title }} 
               {% if item.detail %}
-                <ul style="list-style-type: none; margin: 0.25em 0; padding: 0; line-height: 1.0;">
+                <ul class="detail-list">
                   {% for detail_item in item.detail %}
-                    <li><i>{{ detail_item }}</i></li>
+                    <li><i class="detail-text">{{ detail_item }}</i></li>
                   {% endfor %}
                 </ul>
               {% endif %}
