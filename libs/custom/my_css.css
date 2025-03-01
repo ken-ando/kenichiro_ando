@@ -242,3 +242,9 @@ h4 {
   line-height: 1.1
   /* display: block;  ← ブロック表示にしたいなら有効化 */
 }
+/* 全体に同じフォントを適用 */
+html, body {
+  font-family: "Raleway", "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
