@@ -110,27 +110,27 @@ title: Jpn
 
 </div>
 
-    <!-- ========== Reviewer ========== -->
-    <div class="news-section" id="reviewer">
-      <h4>査読歴</h4>
-      <ul class="news-list">
-        {% for item in site.data.reviwer %}
-          <li class="news-item">
-            <span class="news-date">{{ item.date }}</span>
-            <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.title }} 
-              {% if item.detail %}
-                <ul class="detail-list">
-                  {% for detail_item in item.detail %}
-                    <li><i class="detail-text">{{ detail_item }}</i></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </span>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-
+<!-- ========== Reviewer ========== -->
+<div class="news-section" id="reviewer">
+  <h4>査読歴</h4>
+  <ul class="news-list">
+    {% for item in site.data.reviwer %}
+      <li class="news-item">
+        <span class="news-date">{{ item.conf }}</span>
+        <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.years }} 
+          {% if item.detail %}
+            <ul class="detail-list">
+              {% for detail_item in item.detail %}
+                <li><i class="detail-text">{{ detail_item }}</i></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+    
 <!-- ========== Awards ========== -->
 <div class="docs-section" id="awards">
   <h4>受賞</h4>
