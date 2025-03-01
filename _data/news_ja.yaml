@@ -1,0 +1,25 @@
+- date: "2025.03"
+  title: "共著論文を言語処理学会第年次大会で発表します。"
+  detail: 
+    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
+
+- date: "2025.03"
+  title: "主著論文を情報処理学会NL研で発表します。"
+  detail: 
+    - "- 大規模言語モデルによる日本語医療NLPの発展分析"
+
+- date: "2025.02"
+  title: "研究が新聞で報道されました。"
+  detail: 
+    - "- 東大、オープンな日本語マルチモーダルモデルを開発（<a href='https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/' target='_blank'>日本経済新聞</a>）"
+    - "- 東大、日本語視覚言語モデル開発　オープンに利用可能（<a href='https://www.nikkan.co.jp/articles/view/00741134' target='_blank'>日刊工業新聞</a>）"
+
+- date: "2024.04"
+  title: "研究資金を獲得しました。"
+  detail: 
+    - "- 科学研究費助成事業（科研費）若手研究"
+
+- date: "2024.02"
+  title: "主著論文がAAAI 2024に採択されました。"
+  detail: 
+    - "- WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"

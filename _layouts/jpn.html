@@ -97,7 +97,7 @@
     <div class="news-section" id="news">
       <h4>NEWS</h4>
       <ul class="news-list">
-        {% for item in site.data.news %}
+        {% for item in site.data.news_ja %}
           <li class="news-item">
             <span class="news-date">{{ item.date }}</span>
             <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.title }} 
