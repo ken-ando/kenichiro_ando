@@ -239,6 +239,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.2;   /* 行間 */
+  margin-bottom: 3px;
 }
 .detail-list li {
   padding: 0;
