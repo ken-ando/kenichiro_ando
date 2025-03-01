@@ -9,8 +9,8 @@
 - date: "2025.02"
   title: "Our research was reported in newspapers."
   detail: 
-    - "- <a href='https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/' target='_blank'>東大、オープンな日本語マルチモーダルモデルを開発</a>（Nikkei）"
-    - "- <a href='https://www.nikkan.co.jp/articles/view/00741134' target='_blank'>東大、日本語視覚言語モデル開発　オープンに利用可能</a>（Nikkan Kogyo Shimbun）"
+    - "- 東大、オープンな日本語マルチモーダルモデルを開発（<a href='https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/' target='_blank'>Nikkei</a>）"
+    - "- 東大、日本語視覚言語モデル開発　オープンに利用可能（<a href='https://www.nikkan.co.jp/articles/view/00741134' target='_blank'>Nikkan Kogyo Shimbun</a>）"
 - date: "2024.04"
   title: "A new research funding is obtained."
   detail: 
