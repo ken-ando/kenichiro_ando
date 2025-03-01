@@ -116,7 +116,7 @@ title: Jpn
   <ul class="news-list">
     {% for item in site.data.reviwer %}
       <li class="news-item">
-        <span class="news-date">{{ item.conf }}</span>
+        <span class="news-date">{{ item.conf }}:</span>
         <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.years }} 
           {% if item.detail %}
             <ul class="detail-list">
