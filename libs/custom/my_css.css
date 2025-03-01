@@ -239,7 +239,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.2;   /* 行間 */
-  margin-top: 3px;
+  margin-top: 1px;
 }
 .detail-list li {
   padding: 0;
