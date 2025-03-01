@@ -226,7 +226,8 @@ h4 {
   color: #333;
   display: inline-block;
   vertical-align: top;
-  line-height: 1.1
+  line-height: 1.1;
+  margin-bottom: 3px;
   /* display: block;  ← ブロック表示にしたいなら有効化 */
 }
 /* 全体に同じフォントを適用 */
