@@ -229,15 +229,15 @@ h4 {
 
 /* 日付 */
 .news-date {       /* やや太字 */
-  margin-top: 0.2em;
+  margin-top: 0;
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
-  margin-right: 0.8em;      /* 日付と本文の距離 */
+  margin-right: 12.5px;      /* 日付と本文の距離 */
 }
 
 /* タイトル・本文 */
 .news-content {
-  margin-top: 0.2em;
+  margin-top: 0;
   color: #333;
   display: inline-block;
   vertical-align: top;
