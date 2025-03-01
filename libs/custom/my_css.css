@@ -209,7 +209,7 @@ h4 {
 }
 
 .news-item {
-  margin-bottom: 0.1em;    
+  margin-bottom: 0;    
   line-height: 1.0;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
@@ -251,6 +251,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.2;   /* 行間 */
+  margin-bottom: 0.25em;
 }
 .detail-list li {
   padding: 0;
