@@ -204,12 +204,12 @@ h4 {
 .news-list {
   list-style: none;         /* デフォルトの箇条書きを消す */
   padding: 0;          /* 左のインデントをなくす */
-  margin: 1em;
+  margin: 0.25em 0;
   line-height: 1.2;
 }
 
 .news-item {
-  margin-bottom: 0;    
+  margin-bottom: 0.25em;    
   line-height: 1.2;         /* 行間を少し広めに */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
 }
