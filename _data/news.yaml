@@ -1,4 +1,8 @@
 - date: "2025.03"
+  title: "A co-author paper is presented at 情報処理学会全国大会."
+  detail: 
+    - "- 医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
+- date: "2025.03"
   title: "A co-author paper is presented at 言語処理学会第年次大会."
   detail: 
     - "- Asagi: 合成データセットを活用した大規模日本語VLM"
