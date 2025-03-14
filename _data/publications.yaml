@@ -1,5 +1,22 @@
 papers:
 
+  - title: "Asagi: 合成データセットを活用した大規模日本語VLM"
+    authors: "上原 康平, 黒瀬 優介, 安道 健一郎, Jiali Chen, Fan Gao, 金澤 爽太郎, 坂本 拓彌, 竹田 悠哉, Boming Yang, Xinjie Zhao, 村尾 晃平, 吉田 浩, 田村 孝之, 合田 憲人, 喜連川 優, 原田 達也"
+    venue: "言語処理学会第31回年次大会, 委員特別賞🎉"
+    paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
+    in_doc: y
+
+  - title: "医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
+    authors: "奥村貴史，田中寛之，中野利紀，安道健一郎，森田瑞樹，狩野芳伸，荒牧英治"
+    venue: "情報処理学会情報処理学会第87回全国大会"
+    in_doc: y
+
+  - title: "大規模言語モデルによる日本語医療NLPの発展分析"
+    authors: "安道健一郎, 田中寛之, 中野利紀, 森田瑞樹, 荒牧英治, 狩野芳伸, 奥村貴史"
+    venue: "第263回自然言語処理研究発表会"
+    paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
+    in_doc: y
+
   - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
     venue: "[<b>AAAI 24</b>] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"

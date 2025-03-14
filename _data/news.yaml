@@ -1,4 +1,6 @@
 - date: "2025.03"
+  title: "A co-author paper won the Special Committee Award🎉."
+- date: "2025.03"
   title: "A co-author paper is presented at 情報処理学会全国大会."
   detail: 
     - "- 医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
@@ -18,7 +20,7 @@
 - date: "2024.04"
   title: "A new research funding is obtained."
   detail: 
-    - "- Grants-in-Aid for Scientific Research, Grant-in-Aid for Young Scientists（科研費若手）."
+    - "- Grants-in-Aid for Scientific Research, Grant-in-Aid for Young Scientists."
 - date: "2024.02"
   title: "A first-author paper is accepted at AAAI 2024."
   detail: 
