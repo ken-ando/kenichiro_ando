@@ -1,15 +1,19 @@
+- date: "2025.06"
+  title: "A co-author paper is presented at 第7回日本メディカルAI学会学術集会."
+  detail: 
+    - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
 - date: "2025.03"
   title: "A co-author paper won the Special Committee Award🎉."
 - date: "2025.03"
-  title: "A co-author paper is presented at 情報処理学会全国大会."
+  title: "A co-author paper was presented at 情報処理学会全国大会."
   detail: 
     - "- 医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
 - date: "2025.03"
-  title: "A co-author paper is presented at 言語処理学会第年次大会."
+  title: "A co-author paper was presented at 言語処理学会第年次大会."
   detail: 
     - "- Asagi: 合成データセットを活用した大規模日本語VLM"
 - date: "2025.03"
-  title: "A first-author paper is presented at 情報処理学会NL研."
+  title: "A first-author paper was presented at 情報処理学会NL研."
   detail: 
     - "- 大規模言語モデルによる日本語医療NLPの発展分析"
 - date: "2025.02"
@@ -18,10 +22,10 @@
     - "- 東大、オープンな日本語マルチモーダルモデルを開発（<a href='https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/' target='_blank'>Nikkei</a>）"
     - "- 東大、日本語視覚言語モデル開発　オープンに利用可能（<a href='https://www.nikkan.co.jp/articles/view/00741134' target='_blank'>Nikkan Kogyo Shimbun</a>）"
 - date: "2024.04"
-  title: "A new research funding is obtained."
+  title: "A new research funding was obtained."
   detail: 
     - "- Grants-in-Aid for Scientific Research, Grant-in-Aid for Young Scientists."
 - date: "2024.02"
-  title: "A first-author paper is accepted at AAAI 2024."
+  title: "A first-author paper was accepted at AAAI 2024."
   detail: 
     - "- WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
