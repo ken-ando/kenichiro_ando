@@ -1,4 +1,9 @@
 - date: "2025.06"
+  title: "Two co-author papers are presented at MIRU2025 in oral session."
+  detail: 
+    - "- 推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
+    - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+- date: "2025.06"
   title: "A co-author paper is presented at 第7回日本メディカルAI学会学術集会."
   detail: 
     - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
