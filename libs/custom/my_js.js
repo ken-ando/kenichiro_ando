@@ -96,7 +96,8 @@ $(document).ready(function() {
 // Toggle detail function for news items
 function toggleDetail(button) {
   var $button = $(button);
-  var $detailList = $button.nextAll('.detail-list').first();
+  var $container = $button.closest('.detail-toggle-container');
+  var $detailList = $container.nextAll('.detail-list').first();
   
   $button.toggleClass('expanded');
   $detailList.slideToggle(300);

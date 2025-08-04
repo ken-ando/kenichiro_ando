@@ -86,8 +86,8 @@
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa-brands fa-github" aria-hidden="true"></i>
               </span>
-               [<a href={{ "/index.html" | prepend: site.baseurl }}>English</a>]
             </p>
+            <p>[<a href={{ "/index.html" | prepend: site.baseurl }}>English</a>]</p>
         </div>
       </div>
     </section>
@@ -103,9 +103,12 @@
             <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>
               {{ item.title }}
               {% if item.detail %}
-                <button class="detail-toggle" onclick="toggleDetail(this)">
-                  <i class="fas fa-chevron-down"></i>
-                </button>
+                <div class="detail-toggle-container">
+                  <button class="detail-toggle" onclick="toggleDetail(this)">
+                    <span class="toggle-icon">›</span>
+                    <span class="toggle-text">詳細</span>
+                  </button>
+                </div>
                 <ul class="detail-list" style="display: none;">
                   {% for detail_item in item.detail %}
                     <li><i class="detail-text">{{ detail_item }}</i></li>

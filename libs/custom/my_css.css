@@ -219,6 +219,8 @@ h4 {
   display: inline-block;
   color: #555;              /* 文字色はグレーめに */
   margin-right: 12.5px;      /* 日付と本文の距離 */
+  width: 65px;              /* Fixed width for consistent alignment */
+  vertical-align: top;
 }
 
 /* タイトル・本文 */
@@ -228,7 +230,7 @@ h4 {
   vertical-align: top;
   line-height: 1.1;
   margin-bottom: 3px;
-  /* display: block;  ← ブロック表示にしたいなら有効化 */
+  width: calc(100% - 85px);  /* Adjust based on date width + margin */
 }
 /* 全体に同じフォントを適用 */
 html, body {
@@ -239,7 +241,8 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.2;   /* 行間 */
-  margin-top: 1px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
 .detail-list li {
   padding: 0;
@@ -250,25 +253,39 @@ html, body {
 }
 
 /* Toggle button styling */
+.detail-toggle-container {
+  margin-top: 3px;
+  margin-left: 0px;
+}
+
 .detail-toggle {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0 8px;
+  padding: 0;
   font-size: 0.8em;
-  color: #666;
-  transition: transform 0.3s ease;
-  vertical-align: middle;
+  color: #888;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .detail-toggle:hover {
   color: #333;
 }
 
-.detail-toggle i {
+.toggle-icon {
+  font-size: 1.2em;
+  display: inline-block;
   transition: transform 0.3s ease;
+  transform-origin: center;
 }
 
-.detail-toggle.expanded i {
-  transform: rotate(180deg);
+.detail-toggle.expanded .toggle-icon {
+  transform: rotate(90deg);
+}
+
+.toggle-text {
+  font-size: 0.9em;
 }
