@@ -241,8 +241,9 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.2;   /* 行間 */
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 0px;
+  display: block;
 }
 .detail-list li {
   padding: 0;
@@ -252,23 +253,15 @@ html, body {
   font-size: 0.9em;
 }
 
-/* Toggle button styling */
-.detail-toggle-container {
-  margin-top: 3px;
-  margin-left: 0px;
-}
-
+/* Toggle styling */
 .detail-toggle {
-  background: none;
-  border: none;
   cursor: pointer;
-  padding: 0;
-  font-size: 0.8em;
-  color: #888;
+  color: #999;
+  margin-left: 3px;
+  font-size: 0.85em;
   transition: color 0.2s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
+  display: inline;
+  user-select: none;
 }
 
 .detail-toggle:hover {
@@ -276,7 +269,6 @@ html, body {
 }
 
 .toggle-icon {
-  font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
   transform-origin: center;
@@ -284,8 +276,4 @@ html, body {
 
 .detail-toggle.expanded .toggle-icon {
   transform: rotate(90deg);
-}
-
-.toggle-text {
-  font-size: 0.9em;
 }

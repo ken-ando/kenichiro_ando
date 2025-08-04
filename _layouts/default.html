@@ -103,12 +103,9 @@
             <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>
               {{ item.title }}
               {% if item.detail %}
-                <div class="detail-toggle-container">
-                  <button class="detail-toggle" onclick="toggleDetail(this)">
-                    <span class="toggle-icon">›</span>
-                    <span class="toggle-text">Details</span>
-                  </button>
-                </div>
+                <span class="detail-toggle" onclick="toggleDetail(this)">
+                  <span class="toggle-icon">›</span>
+                </span>
                 <ul class="detail-list" style="display: none;">
                   {% for detail_item in item.detail %}
                     <li><i class="detail-text">{{ detail_item }}</i></li>

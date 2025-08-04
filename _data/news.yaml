@@ -9,6 +9,8 @@
     - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
 - date: "2025.03"
   title: "A co-author paper won the Special Committee Award🎉."
+  detail: 
+    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
 - date: "2025.03"
   title: "A co-author paper was presented at 情報処理学会全国大会."
   detail: 

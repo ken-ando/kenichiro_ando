@@ -94,11 +94,10 @@ $(document).ready(function() {
 });
 
 // Toggle detail function for news items
-function toggleDetail(button) {
-  var $button = $(button);
-  var $container = $button.closest('.detail-toggle-container');
-  var $detailList = $container.nextAll('.detail-list').first();
+function toggleDetail(element) {
+  var $toggle = $(element);
+  var $detailList = $toggle.nextAll('.detail-list').first();
   
-  $button.toggleClass('expanded');
+  $toggle.toggleClass('expanded');
   $detailList.slideToggle(300);
 }
