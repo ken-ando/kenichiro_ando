@@ -196,22 +196,26 @@ h4 {
 
 /* 全体を囲むセクション */
 .news-section {
-  margin: 2em 0;             /* 上下に余白をつける */
-  padding: 1em 0;
+  margin: 1.5em 0;             /* 上下に余白をつける */
+  padding: 0.5em 0;
 }
 
 /* メインのリスト */
 .news-list {
   list-style: none;         /* デフォルトの箇条書きを消す */
   padding: 0;          /* 左のインデントをなくす */
-  margin: 3px 0;
-  line-height: 1.2;
+  margin: 0;
+  line-height: 1.1;
 }
 
 .news-item {
-  margin: 3px;    
-  line-height: 1.2;         /* 行間を少し広めに */
+  margin: 0 0 5px 0;    
+  line-height: 1.1;         /* 行間を少し詰める */
   position: relative;       /* 擬似要素で丸ポチをつける場合に利用 */
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
 }
 
 /* 日付 */
@@ -229,7 +233,7 @@ h4 {
   display: inline-block;
   vertical-align: top;
   line-height: 1.1;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
   width: calc(100% - 85px);  /* Adjust based on date width + margin */
 }
 /* 全体に同じフォントを適用 */
@@ -240,17 +244,18 @@ html, body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  line-height: 1.2;   /* 行間 */
-  margin-top: 3px;
+  line-height: 0.9;   /* 行間をさらに狭く */
+  margin-top: 0px;
   margin-left: 0px;
   display: block;
 }
 .detail-list li {
   padding: 0;
   margin: 0;
+  line-height: 1.0;
 }
 .detail-text {
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 /* Toggle styling */
