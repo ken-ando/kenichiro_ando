@@ -248,3 +248,27 @@ html, body {
 .detail-text {
   font-size: 0.9em;
 }
+
+/* Toggle button styling */
+.detail-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 8px;
+  font-size: 0.8em;
+  color: #666;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+.detail-toggle:hover {
+  color: #333;
+}
+
+.detail-toggle i {
+  transition: transform 0.3s ease;
+}
+
+.detail-toggle.expanded i {
+  transform: rotate(180deg);
+}

@@ -100,9 +100,13 @@
         {% for item in site.data.news_ja %}
           <li class="news-item">
             <span class="news-date">{{ item.date }}</span>
-            <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.title }} 
+            <span class="news-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>
+              {{ item.title }}
               {% if item.detail %}
-                <ul class="detail-list">
+                <button class="detail-toggle" onclick="toggleDetail(this)">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+                <ul class="detail-list" style="display: none;">
                   {% for detail_item in item.detail %}
                     <li><i class="detail-text">{{ detail_item }}</i></li>
                   {% endfor %}

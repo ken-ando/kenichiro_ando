@@ -92,3 +92,12 @@ $(document).ready(function() {
   init();
 
 });
+
+// Toggle detail function for news items
+function toggleDetail(button) {
+  var $button = $(button);
+  var $detailList = $button.nextAll('.detail-list').first();
+  
+  $button.toggleClass('expanded');
+  $detailList.slideToggle(300);
+}
