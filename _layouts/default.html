@@ -103,9 +103,9 @@
             <span class="news-content">
               {{ item.title }}
               {% if item.detail %}
-                <span class="detail-toggle" onclick="toggleDetail(this)">
+                <div class="detail-toggle" onclick="toggleDetail(this)">
                   <span class="toggle-icon">›</span>
-                </span>
+                </div>
                 <ul class="detail-list" style="display: none;">
                   {% for detail_item in item.detail %}
                     <li><i class="detail-text">{{ detail_item }}</i></li>
