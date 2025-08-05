@@ -284,3 +284,22 @@ html, body {
 .detail-toggle.expanded .toggle-icon {
   transform: rotate(90deg);
 }
+
+/* Reviewer section styling */
+.reviewer-conf {
+  display: inline-block;
+  color: #555;
+  margin-right: 20px;
+  width: 160px;  /* Wider width for journal names */
+  vertical-align: top;
+  font-size: 0.95em;
+}
+
+.reviewer-content {
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.1;
+  margin-bottom: 0px;
+  width: calc(100% - 185px);  /* Adjust based on conf width (160px) + margin (20px) + buffer */
+}
