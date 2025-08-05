@@ -145,6 +145,23 @@ title: Home
   </ul>
 </div>
 
+<!-- ========== Activities ========== -->
+<div class="docs-section" id="activities">
+  <h4>Activities</h4>
+  <ul class="news-list">
+    {% for item in site.data.activities %}
+      <li class="news-item">
+        <span class="activity-date">{{ item.date }}</span>
+        <span class="activity-content">
+          <strong>{{ item.title }}</strong>
+          {% if item.description %}
+            <br><span class="activity-description">{{ item.description }}</span>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <!-- ========== Press ========== -->
 <div class="docs-section" id="press">

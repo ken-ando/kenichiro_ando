@@ -130,6 +130,24 @@ title: Jpn
     {% endfor %}
   </ul>
 </div>
+
+<!-- ========== Activities ========== -->
+<div class="docs-section" id="activities">
+  <h4>活動</h4>
+  <ul class="news-list">
+    {% for item in site.data.activities_ja %}
+      <li class="news-item">
+        <span class="activity-date">{{ item.date }}</span>
+        <span class="activity-content">
+          <strong>{{ item.title }}</strong>
+          {% if item.description %}
+            <br><span class="activity-description">{{ item.description }}</span>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
     
 <!-- ========== Awards ========== -->
 <div class="docs-section" id="awards">

@@ -303,3 +303,25 @@ html, body {
   margin-bottom: 0px;
   width: calc(100% - 185px);  /* Adjust based on conf width (160px) + margin (20px) + buffer */
 }
+
+/* Activities section styling */
+.activity-date {
+  display: inline-block;
+  color: #555;
+  margin-right: 15px;
+  width: 100px;
+  vertical-align: top;
+}
+
+.activity-content {
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.2;
+  width: calc(100% - 120px);
+}
+
+.activity-description {
+  font-size: 0.9em;
+  color: #666;
+}
