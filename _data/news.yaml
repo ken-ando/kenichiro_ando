@@ -1,5 +1,6 @@
 - date: "2025.08"
   title: "A co-author paper won the Student Encouragement Award🎉."
+  publication_title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
   detail: 
     - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
 - date: "2025.06"
@@ -13,6 +14,7 @@
     - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
 - date: "2025.03"
   title: "A co-author paper won the Special Committee Award🎉."
+  publication_title: "Asagi: 合成データセットを活用した大規模日本語VLM"
   detail: 
     - "- Asagi: 合成データセットを活用した大規模日本語VLM"
 - date: "2025.03"

@@ -258,6 +258,16 @@ html, body {
   font-size: 0.85em;
 }
 
+/* News authors styling */
+.news-authors {
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
+  line-height: 1.2;
+  display: block;
+  margin-top: 2px;
+}
+
 /* Toggle styling */
 .detail-toggle {
   cursor: pointer;

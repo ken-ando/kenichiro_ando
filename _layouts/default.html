@@ -102,6 +102,12 @@
             <span class="news-date">{{ item.date }}</span>
             <span class="news-content">
               {{ item.title }}
+              {% if item.publication_title %}
+                {% assign pub = site.data.publications.papers | where: "title", item.publication_title | first %}
+                {% if pub %}
+                  <br><span class="news-authors">{{ pub.authors }}</span>
+                {% endif %}
+              {% endif %}
               {% if item.detail %}
                 <div class="detail-toggle" onclick="toggleDetail(this)">
                   <span class="toggle-icon">›</span>
