@@ -1,37 +1,44 @@
 papers:
-  - title: "推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
+  - id: "miru2025-vl-qa"
+    title: "推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
     authors: "上原康平, 黒瀬優介, 安道健一郎, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
     venue: "MIRU2025"
     in_doc: y
 
-  - title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+  - id: "miru2025-multimodal"
+    title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
     authors: "勝部駿貴, 福原大翔, 上原康平, 安道健一郎, 椋田悠介, 原田達也"
     venue: "MIRU2025, 学生奨励賞🎉"
     in_doc: y
 
-  - title: "退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価 "
+  - id: "medai2025-discharge"
+    title: "退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価 "
     authors: "柏田祐樹, 櫻井利恵子, 安道健一郎, 横川裕大, 米田昂洋, 原田達也, 田宮元, 高山順"
     venue: "第7回日本メディカルAI学会学術集会"
     in_doc: y
 
-  - title: "Asagi: 合成データセットを活用した大規模日本語VLM"
+  - id: "nlp2025-asagi"
+    title: "Asagi: 合成データセットを活用した大規模日本語VLM"
     authors: "上原 康平, 黒瀬 優介, 安道 健一郎, Jiali Chen, Fan Gao, 金澤 爽太郎, 坂本 拓彌, 竹田 悠哉, Boming Yang, Xinjie Zhao, 村尾 晃平, 吉田 浩, 田村 孝之, 合田 憲人, 喜連川 優, 原田 達也"
     venue: "言語処理学会第31回年次大会, 委員特別賞🎉"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
     in_doc: y
 
-  - title: "医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
+  - id: "ipsj2025-med-nlp"
+    title: "医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
     authors: "奥村貴史，田中寛之，中野利紀，安道健一郎，森田瑞樹，狩野芳伸，荒牧英治"
     venue: "情報処理学会情報処理学会第87回全国大会"
     in_doc: y
 
-  - title: "大規模言語モデルによる日本語医療NLPの発展分析"
+  - id: "nl2025-medical"
+    title: "大規模言語モデルによる日本語医療NLPの発展分析"
     authors: "安道健一郎, 田中寛之, 中野利紀, 森田瑞樹, 荒牧英治, 狩野芳伸, 奥村貴史"
     venue: "第263回自然言語処理研究発表会"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
     in_doc: y
 
-  - title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
+  - id: "aaai2024-wikisqe"
+    title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
     venue: "[<b>AAAI 24</b>] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"
     paper_pdf: "https://arxiv.org/abs/2305.05928"

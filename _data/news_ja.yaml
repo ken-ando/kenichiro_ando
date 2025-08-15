@@ -2,36 +2,36 @@
   title: "共著論文が学生奨励賞を受賞しました🎉"
   publication_title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
   detail: 
-    - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+    - publication_id: "miru2025-multimodal"
 - date: "2025.07"
   title: "共著論文がMIRU2025で口頭発表されます。"
   detail: 
-    - "- 推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
-    - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+    - publication_id: "miru2025-vl-qa"
+    - publication_id: "miru2025-multimodal"
 - date: "2025.06"
   title: "共著論文が第7回日本メディカルAI学会学術集会で発表されます。"
   detail: 
-    - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
+    - publication_id: "medai2025-discharge"
 
 - date: "2025.03"
   title: "共著論文が委員特別賞を受賞しました🎉"
   publication_title: "Asagi: 合成データセットを活用した大規模日本語VLM"
   detail: 
-    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
+    - publication_id: "nlp2025-asagi"
   
 - date: "2025.03"
   title: "共著論文が情報処理学会全国大会で発表されます。"
   detail: 
-    - "- 医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
+    - publication_id: "ipsj2025-med-nlp"
 - date: "2025.03"
   title: "共著論文が言語処理学会第年次大会で発表されます。"
   detail: 
-    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
+    - publication_id: "nlp2025-asagi"
 
 - date: "2025.03"
   title: "主著論文を情報処理学会NL研で発表します。"
   detail: 
-    - "- 大規模言語モデルによる日本語医療NLPの発展分析"
+    - publication_id: "nl2025-medical"
 
 - date: "2025.02"
   title: "研究がメディアで報道されました。"
@@ -47,4 +47,4 @@
 - date: "2024.02"
   title: "主著論文がAAAI 2024に採択されました。"
   detail: 
-    - "- WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
+    - publication_id: "aaai2024-wikisqe"

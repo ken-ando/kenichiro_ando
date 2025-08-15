@@ -114,7 +114,17 @@
                 </div>
                 <ul class="detail-list" style="display: none;">
                   {% for detail_item in item.detail %}
-                    <li><i class="detail-text">{{ detail_item }}</i></li>
+                    {% if detail_item.publication_id %}
+                      {% assign pub = site.data.publications.papers | where: "id", detail_item.publication_id | first %}
+                      {% if pub %}
+                        <li>
+                          <i class="detail-text">{{ pub.title }}</i><br>
+                          <i class="detail-text news-authors">{{ pub.authors }}</i>
+                        </li>
+                      {% endif %}
+                    {% else %}
+                      <li><i class="detail-text">{{ detail_item }}</i></li>
+                    {% endif %}
                   {% endfor %}
                 </ul>
               {% endif %}

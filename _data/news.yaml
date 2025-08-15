@@ -2,33 +2,33 @@
   title: "A co-author paper won the Student Encouragement Award🎉."
   publication_title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
   detail: 
-    - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+    - publication_id: "miru2025-multimodal"
 - date: "2025.06"
   title: "Two co-author papers are presented at MIRU2025 in oral session."
   detail: 
-    - "- 推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
-    - "- 高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
+    - publication_id: "miru2025-vl-qa"
+    - publication_id: "miru2025-multimodal"
 - date: "2025.06"
   title: "A co-author paper is presented at 第7回日本メディカルAI学会学術集会."
   detail: 
-    - "- 退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価"
+    - publication_id: "medai2025-discharge"
 - date: "2025.03"
   title: "A co-author paper won the Special Committee Award🎉."
   publication_title: "Asagi: 合成データセットを活用した大規模日本語VLM"
   detail: 
-    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
+    - publication_id: "nlp2025-asagi"
 - date: "2025.03"
   title: "A co-author paper was presented at 情報処理学会全国大会."
   detail: 
-    - "- 医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
+    - publication_id: "ipsj2025-med-nlp"
 - date: "2025.03"
   title: "A co-author paper was presented at 言語処理学会第年次大会."
   detail: 
-    - "- Asagi: 合成データセットを活用した大規模日本語VLM"
+    - publication_id: "nlp2025-asagi"
 - date: "2025.03"
   title: "A first-author paper was presented at 情報処理学会NL研."
   detail: 
-    - "- 大規模言語モデルによる日本語医療NLPの発展分析"
+    - publication_id: "nl2025-medical"
 - date: "2025.02"
   title: "Our research was reported in newspapers."
   detail: 
@@ -41,4 +41,4 @@
 - date: "2024.02"
   title: "A first-author paper was accepted at AAAI 2024."
   detail: 
-    - "- WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
+    - publication_id: "aaai2024-wikisqe"
