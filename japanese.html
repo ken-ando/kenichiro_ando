@@ -131,55 +131,6 @@ title: Jpn
       {% endfor %}
     </div>
 
-<!-- ========== Grants ========== -->
-<div class="docs-section" id="grants">
-  <h4>獲得研究費</h4>
-  <p>
-    <strong>日本学術振興会 科学研究費補助金 若手研究</strong>, 2024年4月 - 2028年3月 (¥1,170,000 × 4)<br/>
-    &emsp; - 品質ラベルが付与された外部データを用いた実用的な小論文自動採点手法
-  </p>
-
-</div>
-
-<!-- ========== Reviewer ========== -->
-<div class="news-section" id="reviewer">
-  <h4>査読歴</h4>
-  <ul class="news-list">
-    {% for item in site.data.reviwer %}
-      <li class="news-item">
-        <span class="reviewer-conf"><strong>{{ item.conf }}</strong>:</span>
-        <span class="reviewer-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.years }} 
-          {% if item.detail %}
-            <ul class="detail-list">
-              {% for detail_item in item.detail %}
-                <li><i class="detail-text">{{ detail_item }}</i></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </span>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<!-- ========== Activities ========== -->
-<div class="docs-section" id="activities">
-  <h4>活動</h4>
-  <ul class="news-list">
-    {% for item in site.data.activities_ja %}
-      <li class="news-item">
-        <span class="activity-date">{{ item.date }}</span>
-        <span class="activity-content">
-          <strong>{{ item.title }}</strong>
-          {% if item.description %}
-            <br><span class="activity-description">{{ item.description }}</span>
-          {% endif %}
-        </span>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-    
 <!-- ========== Awards ========== -->
 <div class="docs-section" id="awards">
   <h4>受賞</h4>
@@ -187,7 +138,7 @@ title: Jpn
     <strong>優秀研究発表賞</strong>, 医用画像情報学会, 2025年10月
   </p>
   <p>
-    <strong>学生奨励賞</strong>, MIRU2025, 2025年8月
+    <strong>学生奨励賞</strong>（第一著者が受賞）, MIRU2025, 2025年8月
   </p>
   <p>
     <strong>感謝状</strong>, 理化学研究所, 2025年5月
@@ -201,22 +152,15 @@ title: Jpn
 
 </div>
 
-
-<!-- ========== Press ========== -->
-<div class="docs-section" id="press">
-  <h4>メディア報道</h4>
+<!-- ========== Grants ========== -->
+<div class="docs-section" id="grants">
+  <h4>獲得研究費</h4>
   <p>
-    日本語VLM (<strong>Asagi</strong>) が以下のメディアで報道されました。<br/>
-    - <strong>東京大学プレスリリース</strong>: <br/>
-        &nbsp;&nbsp;<a href="https://www.rcast.u-tokyo.ac.jp/ja/news/release/20250225.html" target="_blank">オープンな日本語マルチモーダルモデルを開発―142億パラメータを持つ日本語に特化した視覚言語モデル―</a><br/>
-    - <strong>日本経済新聞</strong>: <br/>
-        &nbsp;&nbsp;<a href="https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/" target="_blank">東大、オープンな日本語マルチモーダルモデルを開発</a><br/>
-    - <strong>日刊工業新聞</strong>: <br/>
-        &nbsp;&nbsp;<a href="https://www.nikkan.co.jp/articles/view/00741134" target="_blank">東大、日本語視覚言語モデル開発　オープンに利用可能</a><br/>
+    <strong>日本学術振興会 科学研究費補助金 若手研究</strong>, 2024年4月 - 2028年3月 (¥1,170,000 × 4)<br/>
+    &emsp; - 品質ラベルが付与された外部データを用いた実用的な小論文自動採点手法
   </p>
 
 </div>
-
 
 <div class="docs-section" id="research_history">
   <h4>研究歴</h4>
@@ -281,8 +225,63 @@ title: Jpn
     <p/>
 </div>
 
+<!-- ========== Reviewer ========== -->
+<div class="news-section" id="reviewer">
+  <h4>査読歴</h4>
+  <ul class="news-list">
+    {% for item in site.data.reviwer %}
+      <li class="news-item">
+        <span class="reviewer-conf"><strong>{{ item.conf }}</strong>:</span>
+        <span class="reviewer-content" {% if item.detail == nil %}style="margin-bottom: 1em;"{% endif %}>{{ item.years }} 
+          {% if item.detail %}
+            <ul class="detail-list">
+              {% for detail_item in item.detail %}
+                <li><i class="detail-text">{{ detail_item }}</i></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
-  <div class="docs-section" id="ack">
+<!-- ========== Activities ========== -->
+<div class="docs-section" id="activities">
+  <h4>活動</h4>
+  <ul class="news-list">
+    {% for item in site.data.activities_ja %}
+      <li class="news-item">
+        <span class="activity-date">{{ item.date }}</span>
+        <span class="activity-content">
+          <strong>{{ item.title }}</strong>
+          {% if item.description %}
+            <br><span class="activity-description">{{ item.description }}</span>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<!-- ========== Press ========== -->
+<div class="docs-section" id="press">
+  <h4>メディア報道</h4>
+  <p>
+    日本語VLM (<strong>Asagi</strong>) が以下のメディアで報道されました。<br/>
+    - <strong>東京大学プレスリリース</strong>: <br/>
+        &nbsp;&nbsp;<a href="https://www.rcast.u-tokyo.ac.jp/ja/news/release/20250225.html" target="_blank">オープンな日本語マルチモーダルモデルを開発―142億パラメータを持つ日本語に特化した視覚言語モデル―</a><br/>
+    - <strong>日本経済新聞</strong>: <br/>
+        &nbsp;&nbsp;<a href="https://www.nikkei.com/article/DGXZRSP687378_V20C25A2000000/" target="_blank">東大、オープンな日本語マルチモーダルモデルを開発</a><br/>
+    - <strong>日刊工業新聞</strong>: <br/>
+        &nbsp;&nbsp;<a href="https://www.nikkan.co.jp/articles/view/00741134" target="_blank">東大、日本語視覚言語モデル開発　オープンに利用可能</a><br/>
+  </p>
+
+</div>
+
+
+<div class="docs-section" id="ack">
   <h4>謝辞</h4>
   <p>
     This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a> and <a href="https://github.com/thashim/thashim.github.io">Tatsunori Hashimoto</a>
