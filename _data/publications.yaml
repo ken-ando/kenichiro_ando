@@ -2,14 +2,14 @@ papers:
   - id: "nlp2026-medvlm"
     title: "医療用⼤規模日本語視覚言語モデルの構築"
     authors: "安道健一郎, ⿊瀬優介, 菊地智博, 牧元久樹, ⼩寺聡, ⼩林和馬, 合田和生, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
-    venue: "言語処理学会第32回年次大会 (2026)",
+    venue: "言語処理学会第32回年次大会 (2026)"
     in_doc: y
 
   - id: "citation-alignment"
     title: "Aligning Large Language Model Behavior with Human Citation Preferences"
     authors: "Kenichiro Ando, Tatsuya Harada"
-    venue: "arXiv preprint (2026)",
-    paper_pdf: "https://arxiv.org/abs/2602.05205",
+    venue: "arXiv preprint (2026)"
+    paper_pdf: "https://arxiv.org/abs/2602.05205"
     in_doc: y
 
   - id: "mii2025-medvlm"
