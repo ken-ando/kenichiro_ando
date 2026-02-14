@@ -1,3 +1,7 @@
+- date: "2026.05"
+  title: "A co-author paper will be presented at LREC2026."
+  detail: 
+    - publication_id: "lrec2026-dejima"
 - date: "2026.03"
   title: "A first-author paper will be presented at 言語処理学会年次大会."
   detail: 
@@ -7,16 +11,12 @@
   detail: 
     - publication_id: "mii2025-medvlm"
 - date: "2025.08"
-  title: "A co-author paper won the Student Encouragement Award🎉."
-  detail: 
-    - publication_id: "miru2025-multimodal"
-- date: "2025.06"
-  title: "Two co-author papers are presented at MIRU2025 in oral session."
+  title: "Two co-author papers was presented at MIRU2025 in oral session, and one won the Student Encouragement Award🎉."
   detail: 
     - publication_id: "miru2025-vl-qa"
     - publication_id: "miru2025-multimodal"
 - date: "2025.06"
-  title: "A co-author paper is presented at 日本メディカルAI学会学術集会."
+  title: "A co-author paper was presented at 日本メディカルAI学会学術集会."
   detail: 
     - publication_id: "medai2025-discharge"
 - date: "2025.05"

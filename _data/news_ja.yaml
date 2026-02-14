@@ -2,30 +2,31 @@
   title: "主著論文が言語処理学会年次大会で発表されます。"
   detail: 
     - publication_id: "nlp2026-medvlm"
+
 - date: "2025.10"
   title: "主著論文が医療画像情報学会で発表され、優秀研究発表賞を受賞しました🎉"
   detail: 
     - publication_id: "mii2025-medvlm"
+
 - date: "2025.08"
-  title: "共著論文が学生奨励賞を受賞しました🎉"
-  detail: 
-    - publication_id: "miru2025-multimodal"
-- date: "2025.07"
-  title: "共著論文がMIRU2025で口頭発表されます。"
+  title: "2本の共著論文がMIRU2025で口頭発表され、1本が学生奨励賞を受賞しました🎉"
   detail: 
     - publication_id: "miru2025-vl-qa"
     - publication_id: "miru2025-multimodal"
+
 - date: "2025.06"
   title: "共著論文が第7回日本メディカルAI学会学術集会で発表されます。"
   detail: 
     - publication_id: "medai2025-discharge"
+
 - date: "2025.05"
   title: "理化学研究所より感謝状を受け取りました🎉"
-  
+
 - date: "2025.03"
   title: "共著論文が情報処理学会全国大会で発表されます。"
   detail: 
     - publication_id: "ipsj2025-med-nlp"
+
 - date: "2025.03"
   title: "共著論文が言語処理学会第年次大会で発表され、委員特別賞を受賞しました🎉"
   detail: 

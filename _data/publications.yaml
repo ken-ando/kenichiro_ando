@@ -1,4 +1,11 @@
 papers:
+  - id: "lrec2026-dejima"
+    title: "DEJIMA: A Novel Large-scale Japanese Dataset for Image Captioning and Visual Question Answering"
+    authors: "Toshiki Katsube, Taiga Fukuhara, Kenichiro Ando, Yusuke Mukuta, Kohei Uehara, Tatsuya Harada"
+    venue: "[<b>LREC2026</b>] The 15th Language Resources and Evaluation Conference (2026)"
+    paper_pdf: "https://arxiv.org/abs/2512.00773"
+    en: y
+
   - id: "nlp2026-medvlm"
     title: "医療用⼤規模日本語視覚言語モデルの構築"
     authors: "安道健一郎, ⿊瀬優介, 菊地智博, 牧元久樹, ⼩寺聡, ⼩林和馬, 合田和生, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
@@ -21,13 +28,15 @@ papers:
   - id: "miru2025-vl-qa"
     title: "推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
     authors: "上原康平, 黒瀬優介, 安道健一郎, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
-    venue: "第28回 画像の認識・理解シンポジウム (2025)"
+    venue: "第28回 画像の認識・理解シンポジウム （口頭発表）(2025)"
+    refereed: y
     in_doc: y
 
   - id: "miru2025-multimodal"
     title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
     authors: "勝部駿貴, 福原大翔, 上原康平, 安道健一郎, 椋田悠介, 原田達也"
-    venue: "第28回 画像の認識・理解シンポジウム (2025), 学生奨励賞🎉"
+    venue: "第28回 画像の認識・理解シンポジウム （口頭発表）(2025), 学生奨励賞🎉"
+    refereed: y
     in_doc: y
 
   - id: "medai2025-discharge"
