@@ -1,52 +1,65 @@
 papers:
+  - id: "nlp2026-medvlm"
+    title: "医療用⼤規模日本語視覚言語モデルの構築"
+    authors: "安道健一郎, ⿊瀬優介, 菊地智博, 牧元久樹, ⼩寺聡, ⼩林和馬, 合田和生, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
+    venue: "言語処理学会第32回年次大会 (2026)",
+    in_doc: y
+
+  - id: "citation-alignment"
+    title: "Aligning Large Language Model Behavior with Human Citation Preferences"
+    authors: "Kenichiro Ando, Tatsuya Harada"
+    venue: "arXiv preprint (2026)",
+    paper_pdf: "https://arxiv.org/abs/2602.05205",
+    in_doc: y
+
   - id: "mii2025-medvlm"
     title: "医療用⼤規模日本語視覚言語モデルの構築"
     authors: "安道健一郎, ⿊瀬優介, 上原康平, 菊地智博, 牧元久樹, ⼩寺聡, ⼩林和馬, 合田和生, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
-    venue: "医用画像情報学会, 優秀研究発表賞🎉"
+    venue: "医用画像情報学会 (2025), 優秀研究発表賞🎉"
     in_doc: y
 
   - id: "miru2025-vl-qa"
     title: "推論過程に能動的質問を組み込んだ日本語V&Lデータセットの構築"
     authors: "上原康平, 黒瀬優介, 安道健一郎, 村尾晃平, 吉田浩, 田村孝之, 合田憲人, 喜連川優, 原田達也"
-    venue: "MIRU2025"
+    venue: "第28回 画像の認識・理解シンポジウム (2025)"
     in_doc: y
 
   - id: "miru2025-multimodal"
     title: "高品質な日本語マルチモーダルデータセットのスケーラブルな構築手法に関する研究"
     authors: "勝部駿貴, 福原大翔, 上原康平, 安道健一郎, 椋田悠介, 原田達也"
-    venue: "MIRU2025, 学生奨励賞🎉"
+    venue: "第28回 画像の認識・理解シンポジウム (2025), 学生奨励賞🎉"
     in_doc: y
 
   - id: "medai2025-discharge"
     title: "退院サマリへの大規模言語モデル適用による症例自動抽出精度の比較評価 "
     authors: "柏田祐樹, 櫻井利恵子, 安道健一郎, 横川裕大, 米田昂洋, 原田達也, 田宮元, 高山順"
-    venue: "第7回日本メディカルAI学会学術集会"
+    venue: "第7回日本メディカルAI学会学術集会 (2025)"
     in_doc: y
 
   - id: "nlp2025-asagi"
     title: "Asagi: 合成データセットを活用した大規模日本語VLM"
     authors: "上原 康平, 黒瀬 優介, 安道 健一郎, Jiali Chen, Fan Gao, 金澤 爽太郎, 坂本 拓彌, 竹田 悠哉, Boming Yang, Xinjie Zhao, 村尾 晃平, 吉田 浩, 田村 孝之, 合田 憲人, 喜連川 優, 原田 達也"
-    venue: "言語処理学会第31回年次大会, 委員特別賞🎉"
+    venue: "言語処理学会第31回年次大会 (2025), 委員特別賞🎉"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
     in_doc: y
 
   - id: "ipsj2025-med-nlp"
     title: "医療×自然言語処理は、発展しているのか？-日本語医療用自然言語処理研究の動向分析"
     authors: "奥村貴史，田中寛之，中野利紀，安道健一郎，森田瑞樹，狩野芳伸，荒牧英治"
-    venue: "情報処理学会情報処理学会第87回全国大会"
+    venue: "情報処理学会情報処理学会第87回全国大会 (2025)"
     in_doc: y
 
   - id: "nl2025-medical"
     title: "大規模言語モデルによる日本語医療NLPの発展分析"
     authors: "安道健一郎, 田中寛之, 中野利紀, 森田瑞樹, 荒牧英治, 狩野芳伸, 奥村貴史"
-    venue: "第263回自然言語処理研究発表会"
+    venue: "第263回自然言語処理研究発表会 (2025)"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-5.pdf"
     in_doc: y
 
   - id: "aaai2024-wikisqe"
     title: "WikiSQE: A Large-Scale Dataset for Sentence Quality Estimation in Wikipedia"
     authors: "Kenichiro Ando, Satoshi Sekine, Mamoru Komachi"
-    venue: "[<b>AAAI 24</b>] The 38th Annual AAAI Conference on Artificial Intelligence, Main track"
+    venue: "[<b>AAAI 24</b>] The 38th Annual AAAI Conference on Artificial Intelligence (2024), Main track"
     paper_pdf: "https://arxiv.org/abs/2305.05928"
     code: "https://github.com/ken-ando/WikiSQE"
     selected: y
@@ -61,7 +74,7 @@ papers:
 
   - title: "Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation?"
     authors: "Kenichiro Ando, Mamoru Komachi, Takashi Okumura, Hiromasa Horiguchi, Yuji Matsumoto"
-    venue: "[<b>TAAI 2022</b>] The 27th International Conference on Technologies and Applications of Artificial Intelligence <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
+    venue: "[<b>TAAI 2022</b>] The 27th International Conference on Technologies and Applications of Artificial Intelligence (2022), <font color=”#0000FA”><b>Best Paper Award</b></font>🏆"
     paper_pdf: "https://arxiv.org/abs/2303.06002"
     slides: "https://speakerdeck.com/ando55/is-in-hospital-meta-information-useful-for-abstractive-discharge-summary-generation"
     selected: y
@@ -78,31 +91,31 @@ papers:
 
   - title: "Wikipediaにおける文の品質推定のための大規模データセット"
     authors: "安道健一郎 , 関根聡 , 小町守"
-    venue: "言語処理学会第29回年次大会"
+    venue: "言語処理学会第29回年次大会 (2023)"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q4-8.pdf"
     in_doc: y
     
   - title: "診療録解析のための文のセグメント分割と意味ラベル付与"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 堀口裕正, 松本 裕治"
-    venue: "情報処理学会第246回自然言語処理研究会"
-    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=208166&item_no=1"
+    venue: "情報処理学会第246回自然言語処理研究会 (2020)"
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/records/208127"
     in_doc: y
   
   - title: "Wikipediaにおける読者属性を考慮した引用要否の分析"
     authors: "安道 健一郎 , 関根聡, 小町 守"
-    venue: "情報処理学会第245回自然言語処理研究会"
-    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=206953&item_no=1"
+    venue: "情報処理学会第245回自然言語処理研究会 (2020)"
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/records/206953"
     in_doc: y
   
   - title: "確信度に基づく退院時サマリの分析"
     authors: "安道 健一郎 , 奥村 貴史, 小町 守, 松本 裕治"
-    venue: "情報処理学会第240回自然言語処理研究会"
-    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=197565&item_no=1"
+    venue: "情報処理学会第240回自然言語処理研究会 (2019)"
+    paper_pdf: "https://ipsj.ixsq.nii.ac.jp/records/197565"
     in_doc: y
   
   - title: "企業ウェブページからの業種情報の抽出と分類"
     authors: "安道健一郎, 白井清昭"
-    venue: "自然言語処理学会 第24回年次大会"
+    venue: "自然言語処理学会 第24回年次大会 (2018)"
     paper_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2018/pdf_dir/P10-7.pdf"
     in_doc: y
 

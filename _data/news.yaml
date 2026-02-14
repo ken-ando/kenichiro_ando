@@ -1,3 +1,7 @@
+- date: "2026.03"
+  title: "A first-author paper will be presented at 言語処理学会年次大会."
+  detail: 
+    - publication_id: "nlp2026-medvlm"
 - date: "2025.10"
   title: "A first-author paper was presented at 医療画像情報学会, and won the Best Research Presentation Award🎉."
   detail: 
@@ -12,7 +16,7 @@
     - publication_id: "miru2025-vl-qa"
     - publication_id: "miru2025-multimodal"
 - date: "2025.06"
-  title: "A co-author paper is presented at 第7回日本メディカルAI学会学術集会."
+  title: "A co-author paper is presented at 日本メディカルAI学会学術集会."
   detail: 
     - publication_id: "medai2025-discharge"
 - date: "2025.05"
@@ -23,7 +27,7 @@
   detail: 
     - publication_id: "ipsj2025-med-nlp"
 - date: "2025.03"
-  title: "A co-author paper was presented at 言語処理学会第年次大会, and won the Special Committee Award🎉."
+  title: "A co-author paper was presented at 言語処理学会年次大会, and won the Special Committee Award🎉."
   detail: 
     - publication_id: "nlp2025-asagi"
 - date: "2025.03"
