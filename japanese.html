@@ -70,7 +70,7 @@ title: Jpn
     </div>
 
     <!-- Refereed Domestic PAPERS -->
-    <div class="tab-pane" id="papers-Doc">
+    <div class="tab-pane" id="papers-refDoc">
       {% assign ml_papers = site.data.publications.papers | where: "refereed", "y" | where: "in_doc", "y" %}
       {% for paper in ml_papers %}
         <div class="paper">
