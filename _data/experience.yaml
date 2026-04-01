@@ -1,5 +1,11 @@
 experiences:
 
+- place: "RIKEN AIP"
+  time: "2026.04 - current"
+  title: "Postdoctoral Researcher"
+  subtitle: "Real-World Intelligence Team"
+  category: "work"
+
 - place: "The University of Tokyo"
   time: "2023.06 - current"
   title: "Visiting Research Fellow"
@@ -7,13 +13,13 @@ experiences:
   category: "work"
 
 - place: "RIKEN AIP"
-  time: "2023.05 - current"
+  time: "2023.05 - 2026.03"
   title: "Postdoctoral Researcher"
   subtitle: "Machine Intelligence for Medical Engineering Team"
   category: "work"
 
 - place: "Tokyo Metropolitan University"
-  time: "2023.04 - current"
+  time: "2023.04 - 2026.03"
   title: "Visiting Researcher"
   subtitle: "Graduate School of System Design"
   category: "work"
